@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="34" viewBox="0 0 33 34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_87372" data-name="Rectángulo 87372" width="8.966" height="16.76" fill="#16163b"/>
+    </clipPath>
+  </defs>
+  <g id="facebook" transform="translate(-1027 -3136)">
+    <ellipse id="Elipse_293" data-name="Elipse 293" cx="16.5" cy="17" rx="16.5" ry="17" transform="translate(1027 3136)" fill="#f8f8f7"/>
+    <g id="Grupo_31034" data-name="Grupo 31034" transform="translate(1038.906 3144.62)">
+      <g id="Grupo_31033" data-name="Grupo 31033" transform="translate(0)" clip-path="url(#clip-path)">
+        <path id="Trazado_52669" data-name="Trazado 52669" d="M2.73,16.76H5.977V9.269h2.4l.48-3.026H5.977V3.956A1.458,1.458,0,0,1,7.564,2.628h1.4V.119L6.457.008C4.059-.14,2.73,1.742,2.73,3.993V6.244H0V9.269H2.73Z" transform="translate(0 0)" fill="#16163b"/>
+      </g>
+    </g>
+  </g>
+</svg>
