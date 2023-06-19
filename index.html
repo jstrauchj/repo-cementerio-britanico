@@ -8,8 +8,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cementerio Británico</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./sass/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +64,7 @@
             <div class="row align-items-center justify-content-center">
                     <div class="col-lg-6 col-md-6 col-sm-6">
                         <div class="d-flex flex-column align-items-start justify-content-md-start justify-content-start">
-                            <h1>Honrar la memoria es honrar la vida</h1>
+                            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h1>Honrar la memoria es honrar la vida</h1></div>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 col-lg-6 col-sm-4 order-1 d-flex align-items-end justify-content-end justify-content-sm-center justify-content-md-end">
@@ -110,8 +110,8 @@
                                 <img class="img-dos d-lg-flex" height="355" width="400" srcset="./Assets/BC-homeimg-servicios.png 1x, ./Assets/BC-homeimg-servicios@2x.png 2x" alt="img-servicios-md">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Brindamos servicios personalizados</h2>
-                                <p>Estamos presentes y acompañamos cada etapa, con cuidado y respeto.</p>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Brindamos servicios personalizados</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Estamos presentes y acompañamos cada etapa, con cuidado y respeto.</p></div>
                                 <a href="./pages/servicios.html">Lee más sobre servicios</a>
                             </div>
                             <div class="col-lg-6 d-md-none d-none  d-xs-none d-lg-flex justify-content-lg-end">
@@ -123,8 +123,8 @@
                                 <img class="img-dos d-lg-flex" height="355" width="400" srcset="./Assets/BC-homeimg-servicios.png 1x, ./Assets/BC-homeimg-servicios@2x.png 2x" alt="img-sobrenos">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Único Cementerio privado de Montevideo</h2>
-                                <p>Tus recuerdos, más cerca. En el corazón de la ciudad y de fácil acceso para tus visitas.</p>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Único Cementerio privado de Montevideo</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Tus recuerdos, más cerca. En el corazón de la ciudad y de fácil acceso para tus visitas.</p></div>
                                 <a href="./pages/sobrenosotros.html">Conoce más sobre nosotros</a>
                             </div>
                         </div>
@@ -145,8 +145,8 @@
                                 <img class="img-dos d-lg-flex" height="355" width="400" srcset="./Assets/BC-homeimg-servicios.png 1x, ./Assets/BC-homeimg-servicios@2x.png 2x" alt="img-eventos-md">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Difundimos eventos culturales y artísticos</h2>
-                                <p>Realizamos variadas propuestas conmemorativas y de interés general.</p>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Difundimos eventos culturales y artísticos</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Realizamos variadas propuestas conmemorativas y de interés general.</p></div>
                                 <a href="./pages/galeria.html">Mira nuestros eventos</a>
                             </div>
                             <div class="col-lg-6 d-md-none d-none  d-xs-none d-lg-flex justify-content-lg-end">
@@ -158,8 +158,8 @@
                                 <img class="img-dos d-lg-flex" height="355" width="400" srcset="./Assets/BC-homeimg-servicios.png 1x, ./Assets/BC-homeimg-servicios@2x.png 2x" alt="img-galeria-md">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Cementerio Jardín</h2>
-                                <p>Un entorno único en el país rodeado de arboladas y rosedales.</p>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Cementerio Jardín</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Un entorno único en el país rodeado de arboladas y rosedales.</p></div>
                                 <a href="./pages/galeria.html">Mira las fotos</a>
                             </div>
                         </div>
@@ -228,6 +228,10 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
                 crossorigin="anonymous"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
 </body>
 
 </html>

@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../sass/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,9 +62,9 @@
      <section class="herobannerservicios">
         <div><img class="img-dos d-lg-flex" height="170" width="300" srcset="../Assets/BC-img-herobanner-servicios.png 1x, ../Assets/BC-img-herobanner-servicios@2x.png 2x" alt="img-hero-servicios"></div>
         <div class="herobannerservicios-titulo">
-            <h1>Nuestros servicios</h1>
-            <p>Ofrecemos sepulcros y panteones que cubren las necesidades funerarias personalizadas, brindando una
-                atención integral y humana.</p>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h1>Nuestros servicios</h1></div>
+            <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Ofrecemos sepulcros y panteones que cubren las necesidades funerarias personalizadas, brindando una
+                atención integral y humana.</p></div>
         </div>
     </section>
             <section class="home__fortalezas">
@@ -103,14 +104,14 @@
                                 <img class="img-dos d-lg-flex" height="440" width="400" srcset="./Assets/BC-img-servicio-modulos.png 1x, ./Assets/BC-img-servicio-modulos@2x.png 2x" alt="img-sepulcros-panteones">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Sepulcros y Panteones</h2>
-                                <p>Ofrecemos sepulcros y panteones, cubrimos las diversas opciones de necesidades funerarias, en un
-                    espacio cuidado y con la mejor atención.</p>
-                <p><strong>Panteones:</strong> son de variados tamaños a disposición y con capacidades desde los 2
-                    lugares. Contamos además con espacio para construir panteones nuevos.</p>
-                <p><strong>Sepulcro:</strong> es un parcela en donde se entierran a la tierra directa con capacidad de
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Sepulcros y Panteones</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Ofrecemos sepulcros y panteones, cubrimos las diversas opciones de necesidades funerarias, en un
+                    espacio cuidado y con la mejor atención.</p></div>
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p><strong>Panteones:</strong> son de variados tamaños a disposición y con capacidades desde los 2
+                    lugares. Contamos además con espacio para construir panteones nuevos.</p></div>
+                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p><strong>Sepulcro:</strong> es un parcela en donde se entierran a la tierra directa con capacidad de
                     hasta 12 lugares. El espacio lo administra el usuario, según su voluntad y necesidad, pudiendo
-                    optimizar el uso del espacio por medio de reducciones.</p>
+                    optimizar el uso del espacio por medio de reducciones.</p></div>
                             </div>
                             <div class="col-lg-6 d-md-none d-none  d-xs-none d-lg-flex justify-content-lg-end">
                                 <img class="img-dos d-lg-flex" height="440" width="400" srcset="../Assets/BC-img-servicio-modulos.png 1x, ../Assets/BC-img-servicio-modulos@2x.png 2x" alt="img-prestaciones">
@@ -121,15 +122,15 @@
                                 <img class="img-dos d-lg-flex" height="440" width="400" srcset="../Assets/BC-img-servicio-modulos.png 1x, ../Assets/BC-img-servicio-modulos@2x.png 2x" alt="servicios">
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2>Prestaciones</h2>
-                                <p>Nuestro personal está preparado para atender sus consultas y necesidades. No dude en contactar con
-                                    nuestro servicio de Atención al Cliente, estamos para ayudar.</p>
-                                <p>Si alguna visita cuenta con movilidad limitada, contamos con silla de ruedas disponible para su mayor
-                                    comodidad.</p>
-                                <p>Para su mejor seguridad, nuestro predio cuenta con servicio de emergencia, las 24 horas.
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Prestaciones</h2></div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Nuestro personal está preparado para atender sus consultas y necesidades. No dude en contactar con
+                                    nuestro servicio de Atención al Cliente, estamos para ayudar.</p></div>
+                                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Si alguna visita cuenta con movilidad limitada, contamos con silla de ruedas disponible para su mayor
+                                    comodidad.</p></div>
+                                    <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><p>Para su mejor seguridad, nuestro predio cuenta con servicio de emergencia, las 24 horas.
                                     El Cementerio cuenta con un servicio de mantenimiento que se ocupa de conservar las parcelas y
                                     parque en excelente estado, en un entorno sin igual, para que sus visitas sean momentos placenteros
-                                    de recuerdo y reflexión.</p>
+                                    de recuerdo y reflexión.</p></div>
                             </div>
                         </div>
                     </div>
@@ -196,6 +197,10 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
                 crossorigin="anonymous"></script>
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init();
+              </script>
 </body>
 
 </html>
