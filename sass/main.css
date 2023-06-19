@@ -437,7 +437,7 @@ header .barra__blanca .navbar ul li a:hover {
 }
 
 @media (max-width: 1000px) {
-  .home__hero h2 {
+  .home__hero h1 {
     text-align: left;
     font-family: "Merriweather", serif;
     font-size: 50px;
@@ -519,7 +519,7 @@ header .barra__blanca .navbar ul li a:hover {
 .herobannerservicios .herobannerservicios-titulo {
   padding-top: 0px;
 }
-.herobannerservicios .herobannerservicios-titulo h2 {
+.herobannerservicios .herobannerservicios-titulo h1 {
   color: #18184A;
   text-align: center;
   font-family: "Merriweather", serif;
@@ -624,7 +624,7 @@ header .barra__blanca .navbar ul li a:hover {
   width: 100%;
   /*background-color: #165a32;*/
 }
-.contmodulos .contmodulo1 .conttexcontacto1 h2 {
+.contmodulos .contmodulo1 .conttexcontacto1 h1 {
   color: #18184A;
   text-align: left;
   font-family: "Merriweather", serif;
