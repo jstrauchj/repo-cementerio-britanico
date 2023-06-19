@@ -108,6 +108,15 @@ header {
                 color: #0C0C44;
                 text-decoration: underline;
             }
+
+            li a:active {
+                /*align-items: center;*/
+                font-family: 'Montserrat', sans-serif;
+                font-size: 17px;
+                font-weight: 500;
+                color: #0C0C44;
+                text-decoration: underline;
+            }
         
     }
      
@@ -656,7 +665,7 @@ header {
     width: 100%;
     height: auto;
     background-color: #fff;
-    padding: 12% 12% 3% 12%;
+    padding: 12% 20% 3% 20%;
     display: block;
     margin: 0 auto;
 
@@ -759,7 +768,7 @@ header {
 .fotosgaleria {
     width: 100%;
     background-color: #fff;
-    padding: 90px 0px;
+    padding: 0 0 90px 0px;
 
     .fotocolumna1 {
         padding: 10px 12%;
@@ -803,7 +812,7 @@ header {
     width: 100%;
     padding: 0 12% 8% 12%;
     /*background-color: antiquewhite;*/
-    margin-top: 120px;
+
 
     .contmodulo1 {
         width: 100%;

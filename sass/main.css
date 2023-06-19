@@ -131,6 +131,14 @@ header .barra__blanca .navbar ul li a:hover {
   color: #0C0C44;
   text-decoration: underline;
 }
+header .barra__blanca .navbar ul li a:active {
+  /*align-items: center;*/
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #0C0C44;
+  text-decoration: underline;
+}
 
 .flotantes {
   position: fixed;
@@ -508,7 +516,7 @@ header .barra__blanca .navbar ul li a:hover {
   width: 100%;
   height: auto;
   background-color: #fff;
-  padding: 12% 12% 3% 12%;
+  padding: 12% 20% 3% 20%;
   display: block;
   margin: 0 auto;
 }
@@ -586,7 +594,7 @@ header .barra__blanca .navbar ul li a:hover {
 .fotosgaleria {
   width: 100%;
   background-color: #fff;
-  padding: 90px 0px;
+  padding: 0 0 90px 0px;
 }
 .fotosgaleria .fotocolumna1 {
   padding: 10px 12%;
@@ -618,7 +626,6 @@ header .barra__blanca .navbar ul li a:hover {
   width: 100%;
   padding: 0 12% 8% 12%;
   /*background-color: antiquewhite;*/
-  margin-top: 120px;
 }
 .contmodulos .contmodulo1 {
   width: 100%;
