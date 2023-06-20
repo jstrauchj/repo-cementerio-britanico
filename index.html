@@ -107,7 +107,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 d-lg-none d-md-flex justify-content-md-end">
-                                <img class="img-dos d-lg-flex" height="355" width="400" srcset="./Assets/BC-homeimg-modulo-servicios.png 1x, ./Assets/BC-homeimg-modulo-servicios@2x.webp 2x" alt="img-servicios-md">
+                                <picture class="img-dos d-lg-flex">
+                                    <source height="284" width="320" srcset="./Assets/BC-homeimg-modulo-servicios-sm.png 1x, ./Assets/BC-homeimg-modulo-servicios-sm@2x.png 2x" media="(min-width: 320px) and (max-width: 767px)">
+                                    <source width="355" height="400" srcset="./Assets/BC-homeimg-modulo-servicios.png 1x, ./Assets/BC-homeimg-modulo-servicios@2x.webp 2x" media="(min-width: 768px)">
+                                    <img width="100%" height="100%" src="assets/img/ic-ebook-hero-banner-cambios-precio-meta-lg.webp" alt="img-servicios-md">
+                                </picture>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Brindamos servicios personalizados</h2></div>
