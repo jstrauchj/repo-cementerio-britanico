@@ -103,8 +103,11 @@
             
             <section class="newsletter">
                 <div id="newsletter__fondo">
-                    <div><img class="img-dos d-lg-flex" height="280" width="300" srcset="../Assets/BC-img-newsletter.png 1x, ../Assets/BC-img-newsletter@2x.png 2x" alt="Newsman"></div>   
-                    <h4>Entérate de los eventos</h4>
+                    <picture class="img-dos d-lg-flex">
+                        <source height="203" width="175" srcset="../Assets/BC-img-newsletter-sm.webp 1x, ../Assets/BC-img-newsletter-sm@2x.webp 2x" media="(min-width: 320px) and (max-width: 767px)">
+                        <source width="300" height="280" srcset="../Assets/BC-img-newsletter.png 1x, ../Assets/BC-img-newsletter@2x.png 2x" media="(min-width: 768px)">
+                        <img width="100%" height="100%" src="../Assets/BC-img-newsletter.png" alt="Newsman">
+                    </picture>                    <h4>Entérate de los eventos</h4>
                     <input name="nombres" type="text" id="inputnombre" placeholder="Nombre y Apellido">
                     <input name="ecorreo" type="email" id="inputnombre"
                         placeholder="Escribe tu correo ejemplo@correo.com">
