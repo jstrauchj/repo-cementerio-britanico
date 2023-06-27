@@ -110,7 +110,11 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6 d-lg-none d-md-flex justify-content-md-end">
-                                <img class="img-dos d-lg-flex" height="440" width="400" srcset="../Assets/BC-img-sobrenosotros-modulo-01.png 1x, ../Assets/BC-img-sobrenosotros-modulo-01@2x.webp 2x" alt="img-quienes-somos-md">
+                                <picture class="img-dos d-lg-flex">
+                                    <source height="300" width="302" srcset="../Assets/BC-img-sobrenosotros-modulo-01-sm.webp 1x, ../Assets/BC-img-sobrenosotros-modulo-01-sm@2x.webp 2x" media="(min-width: 320px) and (max-width: 767px)">
+                                    <source width="400" height="400" srcset="../Assets/BC-img-sobrenosotros-modulo-01.png 1x, ../Assets/BC-img-sobrenosotros-modulo-01@2x.webp 2" media="(min-width: 768px)">
+                                    <img width="100%" height="100%" src="../Assets/BC-img-sobrenosotros-modulo-01@2x.webp" alt="img-quienes-somos-md">
+                                </picture>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Quiénes somos</h2></div>
@@ -124,7 +128,11 @@
                         </div>
                         <div class="row">
                             <div class="col-12 col-md-6">
-                                <img cOlass="img-dos d-lg-flex" height="482" width="400" srcset="../Assets/BC-img-somosnosotros-modulos-02.png 1x, ../Assets/BC-img-somosnosotros-modulos-02@2x.webp 2x" alt="img-nuestra-historia">
+                                <picture class="img-dos d-lg-flex">
+                                    <source height="300" width="300" srcset="../Assets/BC-img-somosnosotros-modulos-02-sm.webp 1x, ../Assets/BC-img-somosnosotros-modulos-02-sm@2x.webp 2x" media="(min-width: 320px) and (max-width: 767px)">
+                                    <source width="400" height="482" srcset="../Assets/BC-img-somosnosotros-modulos-02.png 1x, ../Assets/BC-img-somosnosotros-modulos-02@2x.webp 2x" media="(min-width: 768px)">
+                                    <img width="100%" height="100%" src="../Assets/BC-img-somosnosotros-modulos-02@2x.webp" alt="img-nuestra-historia">
+                                </picture>
                             </div>
                             <div class="col-12 col-md-6">
                                 <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><h2>Nuestra historia</h2></div>
@@ -138,7 +146,11 @@
             
             <section class="newsletter">
                 <div id="newsletter__fondo">
-                    <div><img class="img-dos d-lg-flex" height="280" width="300" srcset="../Assets/BC-img-newsletter.png 1x, ../Assets/BC-img-newsletter@2x.png 2x" alt="Newsman"></div>   
+                    <picture class="img-dos d-lg-flex">
+                        <source height="203" width="175" srcset="../Assets/BC-img-newsletter-sm.webp 1x, ../Assets/BC-img-newsletter-sm@2x.webp 2x" media="(min-width: 320px) and (max-width: 767px)">
+                        <source width="300" height="280" srcset="../Assets/BC-img-newsletter.png 1x, ../Assets/BC-img-newsletter@2x.png 2x" media="(min-width: 768px)">
+                        <img width="100%" height="100%" src="../Assets/BC-img-newsletter.png" alt="Newsman">
+                    </picture>
                     <h4>Entérate de los eventos</h4>
                     <input name="nombres" type="text" id="inputnombre" placeholder="Nombre y Apellido">
                     <input name="ecorreo" type="email" id="inputnombre"
