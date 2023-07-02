@@ -751,4 +751,16 @@ section.contmodulos2 h2 {
   header .barra__blanca .logo img {
     margin-left: 10px;
   }
+  .logo img {
+    width: 50px;
+    background-color: #318554;
+  }
+  .newsletter input[type=text] {
+    width: 250px;
+    font-size: 14px;
+  }
+  .newsletter input[type=email] {
+    width: 250px;
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */
