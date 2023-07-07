@@ -58,20 +58,6 @@ header {
         margin-left: 40px;
         
     }
-
-    /*.button{
-        .svg{
-            background-color: $colorBlanco;
-            /*display: flex;
-            align-items: flex-end;
-            justify-content: flex-end;*//*
-            height: 30px;
-            width: auto;
-            color: $azulOscuro;
-            clear: both;
-            float: right;
-        }
-    }*/
     
     .navbar-collapse{
 
@@ -92,7 +78,6 @@ header {
 
 
             li a {
-                /*align-items: center;*/
                 font-family: 'Montserrat', sans-serif;
                 font-size: 17px;
                 font-weight: 500;
@@ -101,7 +86,6 @@ header {
             }
 
             li a:hover {
-                /*align-items: center;*/
                 font-family: 'Montserrat', sans-serif;
                 font-size: 17px;
                 font-weight: 500;
@@ -110,7 +94,6 @@ header {
             }
 
             li a:active {
-                /*align-items: center;*/
                 font-family: 'Montserrat', sans-serif;
                 font-size: 17px;
                 font-weight: 500;
@@ -123,59 +106,6 @@ header {
     
      
 }
-    /*
-    .idioma__FAQ {
-        display: flex;
-        list-style: none;
-        float: right;
-        margin-left: 30px;
-
-        ul {
-            display: flex;
-            gap: 10px 30px;
-            list-style: none;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 26px;
-        
-            li a {
-                /*align-items: center;*//*
-                font-family: 'Montserrat', sans-serif;
-                font-size: 14px;
-                font-weight: 900;
-                color:$azulOscuro;
-                text-decoration: none;
-            }
-
-            li a:hover {
-                /*align-items: center;*//*
-                font-family: 'Montserrat', sans-serif;
-                font-size: 14px;
-                font-weight: 900;
-                color:$azulOscuro;
-                text-decoration: underline;
-            }
-        }
-
-        button {
-            display: flex;
-            background-color: $colorCta;
-            padding: 15px 30px 15px 30px;
-            border-radius: 30px;
-            border: none;
-            cursor: pointer;
-            float: right;
-    
-            button:hover {
-    
-                background-color: $colorCtaHover;
-                color:$azulOscuro;
-            }
-            button:hover a {
-                text-decoration: none;
-           }
-        }
-    }*/
 }
         
 }
@@ -547,7 +477,6 @@ header {
 
 #franja__copywright {
     width: 100%;
-    /*border-top:1px solid $colorBlanco;*/
     background-color: #050524;
     margin-top: 50px;
 
@@ -811,32 +740,34 @@ header {
 .contmodulos {
     width: 100%;
     padding: 0 12% 8% 12%;
-    /*background-color: antiquewhite;*/
 
 
     .contmodulo1 {
         width: 100%;
-        /*background-color: #165a32;*/
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0 80px;;
+        justify-content: center;
+        
+        
 
     .conttexcontacto1{
+        
 
-   
-
-    h1 {
-        color: #18184A;
-        text-align: left;
-        font-family: 'Merriweather', serif;
-        font-size: 25px;
-        line-height: 35px;
-        margin-bottom: 30px;
-        font-weight: 600;
-    }
+        h2 {
+            color: #18184A;
+            text-align: left;
+            font-family: 'Merriweather', serif;
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 30px;
+            font-weight: 600;
+        }
 
     .contactform{
 
         input[type=text] {
             border: none;
-            /*background-color: #F8F8F7;*/
             color: #2F2F2F;
             border-bottom: 1px solid #2F2F2F;
             margin: 0 auto 40px auto;
@@ -851,7 +782,6 @@ header {
         
         input[type=email] {
             border: none;
-            /*background-color: #F8F8F7;*/
             color: #2F2F2F;
             border-bottom: 1px solid #2F2F2F;
             margin: 0 auto 40px auto;
@@ -877,29 +807,30 @@ header {
 
         button {
 
-            border: none;
-            margin: 50px 0 0 0;
-            display: flex;
-            justify-content: left;
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 900;
-            font-size: 16px;
-            line-height: 26px;
-            text-decoration: none;
+    
+                background-color:$colorCta;
+                padding: 15px 30px 15px 30px;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                margin: 50px auto 0 auto;
+                display: flex;
+                justify-content: center;
+        
+                    
 
             a {
-                background-color: #318554;
+                text-align: center;
                 text-decoration: none;
-                color: #fff;
-                padding: 15px 26px 15px 24px;
-                border-radius: 30px;
-            
-            }
+                color:$azulOscuro;
+                line-height: 26px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 900;
+            }  
             
             a:hover {
             
-                background-color: #165a32;
+                background-color:$colorCtaHover;
             
             
             }
@@ -928,7 +859,6 @@ header {
         font-size: 16px;
         line-height: 26px;
         text-decoration: underline;
-        /*background-color: antiquewhite;*/
     
     }
 }
@@ -941,8 +871,7 @@ header {
 
 .contmodulo1 .contactinfo {
     display: flex;
-    /*background-color: aqua;*/
-    width: 60%;
+    margin-bottom: 50px;
     margin-top: 30px;
 
 }
@@ -967,7 +896,6 @@ section.contmodulos img {
 section.contmodulos2 {
     width: 100%;
     padding: 0% 12%;
-    /*background-color: aqua;*/
     height: 400px;
     margin-bottom: 70px;
 }
@@ -992,9 +920,14 @@ section.contmodulos2 h2 {
       }
 
       .logo img {
-        width: 50px;
+        width: 100px;
         background-color: #318554;
         
+    }
+
+    .contmodulo1 .contactinfo {
+        flex-direction: column-reverse;
+    
     }
 
     .newsletter{

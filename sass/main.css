@@ -31,72 +31,6 @@ header .barra__blanca {
   background-color: #fff;
   box-shadow: 1px 8px 8px 0 rgba(143, 145, 150, 0.1);
   padding: 0px 3% 0px 0;
-  /*.button{
-      .svg{
-          background-color: $colorBlanco;
-          /*display: flex;
-          align-items: flex-end;
-          justify-content: flex-end;*/ /*
-        height: 30px;
-        width: auto;
-        color: $azulOscuro;
-        clear: both;
-        float: right;
-    }
-}*/
-  /*
-  .idioma__FAQ {
-      display: flex;
-      list-style: none;
-      float: right;
-      margin-left: 30px;
-
-      ul {
-          display: flex;
-          gap: 10px 30px;
-          list-style: none;
-          justify-content: space-between;
-          align-items: center;
-          margin-top: 26px;
-
-          li a {
-              /*align-items: center;*/ /*
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 900;
-    color:$azulOscuro;
-    text-decoration: none;
-}
-
-li a:hover {
-    /*align-items: center;*/ /*
-            font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
-            font-weight: 900;
-            color:$azulOscuro;
-            text-decoration: underline;
-        }
-    }
-
-    button {
-        display: flex;
-        background-color: $colorCta;
-        padding: 15px 30px 15px 30px;
-        border-radius: 30px;
-        border: none;
-        cursor: pointer;
-        float: right;
-
-        button:hover {
-
-            background-color: $colorCtaHover;
-            color:$azulOscuro;
-        }
-        button:hover a {
-            text-decoration: none;
-       }
-    }
-}*/
 }
 header .barra__blanca .logo img {
   float: left;
@@ -116,7 +50,6 @@ header .barra__blanca .navbar ul {
   justify-content: end;
 }
 header .barra__blanca .navbar ul li a {
-  /*align-items: center;*/
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -124,7 +57,6 @@ header .barra__blanca .navbar ul li a {
   text-decoration: none;
 }
 header .barra__blanca .navbar ul li a:hover {
-  /*align-items: center;*/
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -132,7 +64,6 @@ header .barra__blanca .navbar ul li a:hover {
   text-decoration: underline;
 }
 header .barra__blanca .navbar ul li a:active {
-  /*align-items: center;*/
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -430,7 +361,6 @@ header .barra__blanca .navbar ul li a:active {
 
 #franja__copywright {
   width: 100%;
-  /*border-top:1px solid $colorBlanco;*/
   background-color: #050524;
   margin-top: 50px;
 }
@@ -625,13 +555,15 @@ header .barra__blanca .navbar ul li a:active {
 .contmodulos {
   width: 100%;
   padding: 0 12% 8% 12%;
-  /*background-color: antiquewhite;*/
 }
 .contmodulos .contmodulo1 {
   width: 100%;
-  /*background-color: #165a32;*/
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 80px;
+  justify-content: center;
 }
-.contmodulos .contmodulo1 .conttexcontacto1 h1 {
+.contmodulos .contmodulo1 .conttexcontacto1 h2 {
   color: #18184A;
   text-align: left;
   font-family: "Merriweather", serif;
@@ -642,7 +574,6 @@ header .barra__blanca .navbar ul li a:active {
 }
 .contmodulos .contmodulo1 .conttexcontacto1 .contactform input[type=text] {
   border: none;
-  /*background-color: #F8F8F7;*/
   color: #2F2F2F;
   border-bottom: 1px solid #2F2F2F;
   margin: 0 auto 40px auto;
@@ -653,7 +584,6 @@ header .barra__blanca .navbar ul li a:active {
 }
 .contmodulos .contmodulo1 .conttexcontacto1 .contactform input[type=email] {
   border: none;
-  /*background-color: #F8F8F7;*/
   color: #2F2F2F;
   border-bottom: 1px solid #2F2F2F;
   margin: 0 auto 40px auto;
@@ -673,26 +603,25 @@ header .barra__blanca .navbar ul li a:active {
   font-size: 14px;
 }
 .contmodulos .contmodulo1 .conttexcontacto1 .contactform button {
+  background-color: #4B92E8;
+  padding: 15px 30px 15px 30px;
+  border-radius: 30px;
   border: none;
-  margin: 50px 0 0 0;
+  cursor: pointer;
+  margin: 50px auto 0 auto;
   display: flex;
-  justify-content: left;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 26px;
-  text-decoration: none;
+  justify-content: center;
 }
 .contmodulos .contmodulo1 .conttexcontacto1 .contactform button a {
-  background-color: #318554;
+  text-align: center;
   text-decoration: none;
-  color: #fff;
-  padding: 15px 26px 15px 24px;
-  border-radius: 30px;
+  color: #0C0C44;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
 .contmodulos .contmodulo1 .conttexcontacto1 .contactform button a:hover {
-  background-color: #165a32;
+  background-color: #1D75DF;
 }
 .contmodulos .contmodulo1 .conttexcontacto1 p {
   color: #2F2F2F;
@@ -709,13 +638,11 @@ header .barra__blanca .navbar ul li a:active {
   font-size: 16px;
   line-height: 26px;
   text-decoration: underline;
-  /*background-color: antiquewhite;*/
 }
 
 .contmodulo1 .contactinfo {
   display: flex;
-  /*background-color: aqua;*/
-  width: 60%;
+  margin-bottom: 50px;
   margin-top: 30px;
 }
 
@@ -734,7 +661,6 @@ section.contmodulos img {
 section.contmodulos2 {
   width: 100%;
   padding: 0% 12%;
-  /*background-color: aqua;*/
   height: 400px;
   margin-bottom: 70px;
 }
@@ -752,8 +678,11 @@ section.contmodulos2 h2 {
     margin-left: 10px;
   }
   .logo img {
-    width: 50px;
+    width: 100px;
     background-color: #318554;
+  }
+  .contmodulo1 .contactinfo {
+    flex-direction: column-reverse;
   }
   .newsletter input[type=text] {
     width: 250px;
