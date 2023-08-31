@@ -445,7 +445,7 @@ header .barra__blanca .navbar ul li a:active {
 .herobannerservicios {
   width: 100%;
   height: auto;
-  background-color: #fff;
+  background-color: #f4f4f4;
   padding: 10% 20% 3% 20%;
   display: block;
   margin: 0 auto;
@@ -474,6 +474,34 @@ header .barra__blanca .navbar ul li a:active {
   line-height: 28px;
 }
 
+.servicios__fortalezas {
+  background-color: #3b8a5a;
+  width: 100%;
+  padding: 40px 100px 40px 100px;
+}
+.servicios__fortalezas h3 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 23px;
+  font-family: "Merriweather", serif;
+  font-size: 23px;
+  font-weight: 600;
+}
+.servicios__fortalezas p {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding: 5px 4px 0 4px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+}
+.servicios__fortalezas .img {
+  text-align: center;
+  margin: 0px auto;
+}
+
 @media (max-width: 1200px) {
   .herobannerservicios img {
     margin: 100px auto 30px auto;
@@ -491,7 +519,7 @@ header .barra__blanca .navbar ul li a:active {
     margin-bottom: 10px;
   }
   .contmodulos .contmodulo1 .cont__iz .contimg {
-    width: 600px;
+    width: 400px;
     height: 250px;
     border: 0;
     border-radius: 16px;
@@ -594,7 +622,6 @@ header .barra__blanca .navbar ul li a:active {
   height: 450px;
   border: 0;
   border-radius: 16px;
-  background-color: #08086A;
 }
 .contmodulos .contmodulo1 .conttexcontacto1 h2 {
   color: #18184A;
@@ -687,7 +714,7 @@ header .barra__blanca .navbar ul li a:active {
     width: 100px;
   }
   .contmodulos .contmodulo1 .cont__iz .contimg {
-    width: 400px;
+    width: 200px;
     height: 150px;
     border: 0;
     border-radius: 16px;

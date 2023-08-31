@@ -5,6 +5,7 @@ $colorGrisFondo: #f4f4f4;
 $colorBlanco: #fff;
 $azulOscuro: #0C0C44;
 $azulMedio: #08086A;
+$verde: #3b8a5a;
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
@@ -595,7 +596,7 @@ header {
 .herobannerservicios {
     width: 100%;
     height: auto;
-    background-color: #fff;
+    background-color: #f4f4f4;
     padding: 10% 20% 3% 20%;
     display: block;
     margin: 0 auto;
@@ -628,6 +629,40 @@ header {
             line-height: 28px;
         }
 
+
+    }
+}
+
+.servicios__fortalezas {
+    background-color: $verde;
+    width: 100%;
+    padding: 40px 100px 40px 100px;
+
+    h3 {
+        color: #fff;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 23px;
+        font-family: 'Merriweather', serif;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    p {
+        color: #fff;;
+        text-align: center;
+        margin-top: 0;
+        padding: 5px 4px 0 4px;
+        line-height: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+
+    }
+
+    .img {
+
+        text-align: center;
+        margin: 0px auto;
 
     }
 }
