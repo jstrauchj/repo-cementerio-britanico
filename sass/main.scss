@@ -1,11 +1,11 @@
 $colorCta: #4B92E8;
 $colorCtaHover: #1D75DF;
 $colorP: #2F2F2F;
-$colorGrisFondo: #f4f4f4;
+$colorGrisFondo: #f6f7f9;
+$colorGrisOscuroFondo: #eaebf3;
 $colorBlanco: #fff;
 $azulOscuro: #0C0C44;
 $azulMedio: #08086A;
-$verde: #3b8a5a;
 $breakpoint-sm: 576px;
 $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
@@ -159,7 +159,7 @@ header {
 
 /*Frotalezas*/
 
-.home__fortalezas {
+.fortalezas {
     background-color: $colorGrisFondo;
     width: 100%;
     padding: 40px 100px 40px 100px;
@@ -351,7 +351,7 @@ header {
 .newsletter {
     width: 100%;
     padding: 5% 12% 5% 12%;
-    background-color: $colorGrisFondo;
+    background-color: $colorGrisOscuroFondo;
     height: 700px;
     display: inline-block;
     margin: 0 auto;
@@ -399,8 +399,8 @@ header {
 
     input[type=text] {
         border: none;
-        background-color: $colorGrisFondo;
-        color: #2F2F2F;
+        background-color: $colorGrisOscuroFondo;
+        color: $colorP;
         border-bottom: 1px solid $colorP;
         margin: 0 auto 40px auto;
         display: block;
@@ -413,8 +413,8 @@ header {
 
     input[type=email] {
         border: none;
-        background-color: $colorGrisFondo;
-        color: #2F2F2F;
+        background-color: $colorGrisOscuroFondo;
+        color: $colorP;
         border-bottom: 1px solid $colorP;
         margin: 0 auto 40px auto;
         display: block;
@@ -596,7 +596,7 @@ header {
 .herobannerservicios {
     width: 100%;
     height: auto;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     padding: 10% 20% 3% 20%;
     display: block;
     margin: 0 auto;
@@ -633,39 +633,6 @@ header {
     }
 }
 
-.servicios__fortalezas {
-    background-color: $verde;
-    width: 100%;
-    padding: 40px 100px 40px 100px;
-
-    h3 {
-        color: #fff;
-        text-align: center;
-        margin-top: 0;
-        padding-top: 23px;
-        font-family: 'Merriweather', serif;
-        font-size: 23px;
-        font-weight: 600;
-    }
-
-    p {
-        color: #fff;;
-        text-align: center;
-        margin-top: 0;
-        padding: 5px 4px 0 4px;
-        line-height: 20px;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 15px;
-
-    }
-
-    .img {
-
-        text-align: center;
-        margin: 0px auto;
-
-    }
-}
 
 @media (max-width:1200px) {
 
@@ -704,53 +671,78 @@ header {
 
 /*SOBRENOSOTROS*/
 .franjadirectiva {
+background-color:$colorGrisFondo;
+padding-top: 15px;
+
+
+.directivafranja {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    margin-top: 0px;
-    background-color: #0C0C44;
+    margin:0 15%;
     padding: 50px 0;
 
-    .franjasobverde {
+    .directivatitulo {
+        height: 190px;
+        width: 350px;
+        /*background-color:#1D75DF;*/
+
+        h3 {
+            color: $azulOscuro;
+            text-align: left;
+            margin-top: 0;
+            font-family: 'Merriweather', serif;
+            font-size: 28px;
+            line-height: 36px;
+            font-weight: 900;
+            width: 200px;
+        }
+    }
+
+    .directivos {
         display: flex;
-        gap: 60px 30px;
+        gap: 20px 0px;
         flex-direction: row;
-        margin: 0px 12% 0px 12%;
         flex-wrap: wrap;
         justify-content: space-between;
-
+        /*background-color: blueviolet;*/
+        height: 190px;
+        
         .nosotros {
+            height: 70px;
+            display: flex;
+            gap: 0px 00px;
+            flex-direction: row;
+            /*background-color:aqua;*/
+            align-items: center;
 
-            h3 {
-                color: #fff;
-                text-align: left;
-                margin-top: 0;
-                font-family: 'Merriweather', serif;
-                font-size: 23px;
-                width: 200px;
-            }
         }
+        
 
         p {
-            color: #fff;
+            display: flex;
+            height: 25px;
+            padding-left: 15px;
+            color: $colorP;
             text-align: left;
             line-height: 20px;
             font-family: 'Montserrat', sans-serif;
-            font-size: 14px;
+            font-size: 16px;
             display: inline;
-            float: right;
-            margin: 5px 0 0 10px;
+            float: left;
+            align-items: center;
 
         }
 
         .imgsobrenos {
 
             display: inline;
-            float: left
+            float: left;
         }
 
     }
+}
 }
 
 

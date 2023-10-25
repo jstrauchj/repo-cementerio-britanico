@@ -108,12 +108,12 @@ header .barra__blanca .navbar ul li a:active {
 }
 
 /*Frotalezas*/
-.home__fortalezas {
-  background-color: #f4f4f4;
+.fortalezas {
+  background-color: #f6f7f9;
   width: 100%;
   padding: 40px 100px 40px 100px;
 }
-.home__fortalezas h3 {
+.fortalezas h3 {
   color: #0C0C44;
   text-align: center;
   margin-top: 0;
@@ -122,7 +122,7 @@ header .barra__blanca .navbar ul li a:active {
   font-size: 23px;
   font-weight: 600;
 }
-.home__fortalezas p {
+.fortalezas p {
   color: #2F2F2F;
   text-align: center;
   margin-top: 0;
@@ -131,7 +131,7 @@ header .barra__blanca .navbar ul li a:active {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
 }
-.home__fortalezas .img {
+.fortalezas .img {
   text-align: center;
   margin: 0px auto;
 }
@@ -196,7 +196,7 @@ header .barra__blanca .navbar ul li a:active {
 .home__modulos .publicidad__eventos {
   width: 100%;
   height: auto;
-  background-color: #f4f4f4;
+  background-color: #f6f7f9;
   border-top: 1px solid #2F2F2F;
   border-bottom: 1px solid #2F2F2F;
   margin: 100px auto 0 auto;
@@ -261,7 +261,7 @@ header .barra__blanca .navbar ul li a:active {
 .newsletter {
   width: 100%;
   padding: 5% 12% 5% 12%;
-  background-color: #f4f4f4;
+  background-color: #eaebf3;
   height: 700px;
   display: inline-block;
   margin: 0 auto;
@@ -302,7 +302,7 @@ header .barra__blanca .navbar ul li a:active {
 }
 .newsletter input[type=text] {
   border: none;
-  background-color: #f4f4f4;
+  background-color: #eaebf3;
   color: #2F2F2F;
   border-bottom: 1px solid #2F2F2F;
   margin: 0 auto 40px auto;
@@ -313,7 +313,7 @@ header .barra__blanca .navbar ul li a:active {
 }
 .newsletter input[type=email] {
   border: none;
-  background-color: #f4f4f4;
+  background-color: #eaebf3;
   color: #2F2F2F;
   border-bottom: 1px solid #2F2F2F;
   margin: 0 auto 40px auto;
@@ -445,7 +445,7 @@ header .barra__blanca .navbar ul li a:active {
 .herobannerservicios {
   width: 100%;
   height: auto;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   padding: 10% 20% 3% 20%;
   display: block;
   margin: 0 auto;
@@ -474,34 +474,6 @@ header .barra__blanca .navbar ul li a:active {
   line-height: 28px;
 }
 
-.servicios__fortalezas {
-  background-color: #3b8a5a;
-  width: 100%;
-  padding: 40px 100px 40px 100px;
-}
-.servicios__fortalezas h3 {
-  color: #fff;
-  text-align: center;
-  margin-top: 0;
-  padding-top: 23px;
-  font-family: "Merriweather", serif;
-  font-size: 23px;
-  font-weight: 600;
-}
-.servicios__fortalezas p {
-  color: #fff;
-  text-align: center;
-  margin-top: 0;
-  padding: 5px 4px 0 4px;
-  line-height: 20px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-}
-.servicios__fortalezas .img {
-  text-align: center;
-  margin: 0px auto;
-}
-
 @media (max-width: 1200px) {
   .herobannerservicios img {
     margin: 100px auto 30px auto;
@@ -527,41 +499,63 @@ header .barra__blanca .navbar ul li a:active {
 }
 /*SOBRENOSOTROS*/
 .franjadirectiva {
+  background-color: #f6f7f9;
+  padding-top: 15px;
+}
+.franjadirectiva .directivafranja {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-top: 0px;
-  background-color: #0C0C44;
+  margin: 0 15%;
   padding: 50px 0;
 }
-.franjadirectiva .franjasobverde {
-  display: flex;
-  gap: 60px 30px;
-  flex-direction: row;
-  margin: 0px 12% 0px 12%;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.franjadirectiva .directivafranja .directivatitulo {
+  height: 190px;
+  width: 350px;
+  /*background-color:#1D75DF;*/
 }
-.franjadirectiva .franjasobverde .nosotros h3 {
-  color: #fff;
+.franjadirectiva .directivafranja .directivatitulo h3 {
+  color: #0C0C44;
   text-align: left;
   margin-top: 0;
   font-family: "Merriweather", serif;
-  font-size: 23px;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 900;
   width: 200px;
 }
-.franjadirectiva .franjasobverde p {
-  color: #fff;
+.franjadirectiva .directivafranja .directivos {
+  display: flex;
+  gap: 20px 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /*background-color: blueviolet;*/
+  height: 190px;
+}
+.franjadirectiva .directivafranja .directivos .nosotros {
+  height: 70px;
+  display: flex;
+  gap: 0px 0px;
+  flex-direction: row;
+  /*background-color:aqua;*/
+  align-items: center;
+}
+.franjadirectiva .directivafranja .directivos p {
+  display: flex;
+  height: 25px;
+  padding-left: 15px;
+  color: #2F2F2F;
   text-align: left;
   line-height: 20px;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   display: inline;
-  float: right;
-  margin: 5px 0 0 10px;
+  float: left;
+  align-items: center;
 }
-.franjadirectiva .franjasobverde .imgsobrenos {
+.franjadirectiva .directivafranja .directivos .imgsobrenos {
   display: inline;
   float: left;
 }
