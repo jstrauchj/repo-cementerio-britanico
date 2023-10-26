@@ -956,12 +956,31 @@ padding-top: 15px;
 /*FAQ*/
 
 
-.dudamodulo {
+.dudamodulos {
     width: 100%;
-    padding: 0 12% 8% 12%;
-    background-color: #08086A;
+    padding: 0 20% 8% 20%;
+
+    h2 {
+        color:#1D75DF;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+        line-height: 26px;
+    }
+
+    p {
+        color: #2F2F2F;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+    }
 
 }
+
+
+
 
 
 

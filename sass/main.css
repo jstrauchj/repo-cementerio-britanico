@@ -700,6 +700,27 @@ header .barra__blanca .navbar ul li a:active {
   margin-top: 30px;
 }
 
+/*FAQ*/
+.dudamodulos {
+  width: 100%;
+  padding: 0 20% 8% 20%;
+}
+.dudamodulos h2 {
+  color: #1D75DF;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 26px;
+}
+.dudamodulos p {
+  color: #2F2F2F;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
 @media (max-width: 768px) {
   header .barra__blanca .logo img {
     margin-left: 10px;
