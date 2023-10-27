@@ -701,24 +701,46 @@ header .barra__blanca .navbar ul li a:active {
 }
 
 /*FAQ*/
+/*SERVICIOS*/
 .dudamodulos {
   width: 100%;
-  padding: 0 20% 8% 20%;
+  padding: 15% 20% 8% 20%;
+  display: flex;
+}
+.dudamodulos .bloqueFAQ {
+  width: 30%;
+  height: auto;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+.dudamodulos .bloqueFAQ .bloqueFAQ-titulo {
+  padding-top: 0px;
+}
+.dudamodulos .bloqueFAQ .bloqueFAQ-titulo h1 {
+  color: #18184A;
+  text-align: left;
+  font-family: "Merriweather", serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 .dudamodulos h2 {
-  color: #1D75DF;
-  text-align: left;
   font-family: "Montserrat", sans-serif;
+  /*color:#1D75DF;
+  text-align: left;
   font-size: 14px;
   font-weight: 900;
-  line-height: 26px;
+  line-height: 26px;*/
 }
 .dudamodulos p {
-  color: #2F2F2F;
-  text-align: left;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  line-height: 26px;
+  /*color: #2F2F2F;
+  text-align: left;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 26px;*/
 }
 
 @media (max-width: 768px) {

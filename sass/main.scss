@@ -955,10 +955,38 @@ padding-top: 15px;
 
 /*FAQ*/
 
+/*SERVICIOS*/
 
 .dudamodulos {
     width: 100%;
-    padding: 0 20% 8% 20%;
+    padding: 15% 20% 8% 20%;
+    display: flex;
+
+.bloqueFAQ {
+    width: 30%;
+    height: auto;
+    background-color: #ffffff;
+    display: block;
+    margin: 0 auto;
+
+
+    .bloqueFAQ-titulo {
+        padding-top: 0px;
+
+        h1 {
+            color: #18184A;
+            text-align: left;
+            font-family: 'Merriweather', serif;
+            font-size: 40px;
+            line-height: 50px;
+            margin-bottom: 10px;
+            font-weight: 600;
+
+        }
+
+
+    }
+}
 
     h2 {
         font-family: 'Montserrat', sans-serif;
