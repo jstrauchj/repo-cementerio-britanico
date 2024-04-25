@@ -3,7 +3,8 @@ $colorCtaHover: #1D75DF;
 $colorP: #2F2F2F;
 $colorGrisFondo: #f6f7f9;
 $colorGrisOscuroFondo: #eaebf3;
-$colorBlanco: #fff;
+$colorBlanco: hsl(0, 0%, 100%);
+$colorfaqenglish: #6c747a;
 $azulOscuro: #0C0C44;
 $azulMedio: #08086A;
 $breakpoint-sm: 576px;
@@ -78,7 +79,7 @@ header {
                 justify-content: end;
 
 
-                li a {
+                .nav-item a {
                     font-family: 'Montserrat', sans-serif;
                     font-size: 17px;
                     font-weight: 500;
@@ -86,7 +87,7 @@ header {
                     text-decoration: none;
                 }
 
-                li a:hover {
+                .nav-item a:hover {
                     font-family: 'Montserrat', sans-serif;
                     font-size: 17px;
                     font-weight: 500;
@@ -94,11 +95,35 @@ header {
                     text-decoration: underline;
                 }
 
-                li a:active {
+                .nav-item a:active {
                     font-family: 'Montserrat', sans-serif;
                     font-size: 17px;
                     font-weight: 500;
                     color: #0C0C44;
+                    text-decoration: underline;
+                }
+
+                .nav-item2 a {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $colorfaqenglish;
+                    text-decoration: none;
+                }
+
+                .nav-item2 a:hover {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $colorfaqenglish;
+                    text-decoration: underline;
+                }
+
+                .nav-item2 a:active {
+                    font-family: 'Montserrat', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $colorfaqenglish;
                     text-decoration: underline;
                 }
 
